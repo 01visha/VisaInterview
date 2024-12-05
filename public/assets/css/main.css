@@ -156,7 +156,7 @@ a:hover {
 }
 
 a:hover {
-  color: var(--ed-color-theme-primary);
+  color: #0b07a6d4;
 }
 
 .slick-list.draggable {
@@ -2511,6 +2511,7 @@ START: Header CSS
 
 .header .primary-header-inner .header-logo img {
   max-width: 224px;
+  border-radius: 10px;
 }
 @media (max-width: 1399px) {
   .header .primary-header-inner .header-logo img {
@@ -7447,7 +7448,7 @@ START: Page Header CSS
   font-weight: 400;
 }
 .hero-content .hero-author h5 span {
-  color: var(--ed-color-theme-primary);
+  color: #0733a6;
   margin-right: 5px;
 }
 .hero-content .bottom-text {
@@ -7938,7 +7939,7 @@ START: Page Header CSS
   color: var(--ed-color-heading-primary);
 }
 .hero-content-4 .hero-btn-wrap .ed-primary-btn span {
-  background-color: var(--ed-color-common-white);
+  /* background-color: var(--ed-color-common-white); */
   color: var(--ed-color-theme-primary);
   height: 30px;
   width: 30px;
@@ -7946,7 +7947,7 @@ START: Page Header CSS
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 4px solid var(--ed-color-theme-primary);
+  border: 4px solid #075ea69c;
   margin-left: 15px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -7958,18 +7959,18 @@ START: Page Header CSS
   margin: 0;
 }
 .hero-content-4 .hero-btn-wrap .ed-primary-btn.active {
-  background-color: var(--ed-color-common-white);
+  background-color: #1a4bdf66;
   color: #596bf8;
 }
 .hero-content-4 .hero-btn-wrap .ed-primary-btn.active:before {
-  background-color: var(--ed-color-theme-primary);
+  background-color: #035cc2c3;
 }
 .hero-content-4 .hero-btn-wrap .ed-primary-btn.active:hover {
   color: var(--ed-color-common-white);
   border: 1px solid var(--ed-color-theme-primary);
 }
 .hero-content-4 .hero-btn-wrap .ed-primary-btn.active:hover span {
-  background-color: var(--ed-color-theme-primary);
+  background-color: #075ea69c;
   border-color: var(--ed-color-common-white);
   color: var(--ed-color-common-white);
 }
@@ -8766,7 +8767,7 @@ START: Feature CSS
   border: 1px solid #E0E5EB;
 }
 .feature-card .content .ed-primary-btn:before {
-  background-color: var(--ed-color-theme-primary);
+  background-color: #051c87ba;
 }
 .feature-card .content .ed-primary-btn:hover {
   color: var(--ed-color-common-white);

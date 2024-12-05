@@ -58,7 +58,7 @@ function Header() {
           <div className="primary-header-inner">
             <div className="header-logo d-lg-block">
               <a href="index.html">
-                <img src="assets/img/logo/interview_logo_copy.png" alt="Logo" />
+                <img src="assets/img/logo/visa_logo_new.png" alt="Logo" />
               </a>
             </div>
             <div className="header-right-wrap">

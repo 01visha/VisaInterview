@@ -23,7 +23,7 @@ function Home() {
         <div className="mobile-side-menu">
           <div className="side-menu-content">
             <div className="side-menu-head">
-              <a href="index.html"><img src="assets/img/logo/interview_logo_copy.png" alt="logo" /></a>
+              <a href="index.html"><img src="assets/img/logo/visa_logo_new.png" alt="logo" /></a>
               <button className="mobile-side-menu-close"><i className="fa-regular fa-xmark" /></button>
             </div>
             <div className="side-menu-wrap" />

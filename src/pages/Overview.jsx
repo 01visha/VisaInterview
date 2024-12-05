@@ -13,7 +13,7 @@ export default function Overview() {
     <div className="col-lg-4 col-md-6">
     <div className="feature-card text-center wow fade-in-bottom" data-wow-delay="400ms">
         <img
-          src="https://cdn.prod.website-files.com/66d04c99aaf4b1d7b96682e6/673965d5763e91c06161fb6c_emoji-robot_1f916.png"
+          src="/assets/img/service/ai_img.png"
           loading="lazy"
           alt=""
           className="image-8"
@@ -25,11 +25,10 @@ export default function Overview() {
             </div>
          
           <div className="text-block-19">
-            <strong className="bold-text-2">100% Accurate Responses</strong>
+            <strong className="bold-text-2">Let AI Guide Your US Visa Interview Journey</strong>
           </div>
           <div className="text-block-19">
-            ParakeetAI uses GPT-4o, the best LLM model available, to provide the
-            most accurate and helpful answers.
+          Ace your visa interview with Visa Interview, the ultimate AI-powered mock visa interview assessment platform.<br /> Designed to simplify and optimize the visa interview process, Visa Interview integrates advanced artificial intelligence with a comprehensive knowledge repository, expert consultations, and personalized interview simulations.
           </div>
         </div>
       </div>
@@ -37,7 +36,7 @@ export default function Overview() {
       <div className="col-lg-4 col-md-6">
       <div className="feature-card text-center wow fade-in-bottom" data-wow-delay="400ms">
         <img
-          src="https://cdn.prod.website-files.com/66d04c99aaf4b1d7b96682e6/67396648f56bb30229adfef0_emoji-studio-microphone_1f399-fe0f.png"
+          src="/assets/img/service/mike_img_1.png"
           loading="lazy"
           alt=""
           className="image-7"
@@ -50,8 +49,7 @@ export default function Overview() {
             <strong className="bold-text">Blazing Fast Transcription</strong>
           </div>
           <div className="text-block-19">
-            We use a state-of-the-art transcription model that provides a highly
-            accurate transcription in record breaking speed.
+          By integrating speech recognition technology, the visa interview project becomes more streamlined, accessible, and effective. It provides an innovative approach to modernizing traditional interview processes, <br />enhancing both user experience and operational efficiency.<br />Trained models for accent recognition and error correction in speech transcription.
           </div>
         </div>
         </div>

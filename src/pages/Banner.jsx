@@ -17,9 +17,9 @@ export default function Features() {
               <div className="hero-content hero-content-3 hero-content-4">
                 <div className="section-heading mb-0">
                   <h4 className="sub-heading wow fade-in-bottom" data-wow-delay="200ms"><span className="heading-icon"><i className="fa-sharp fa-solid fa-bolt" /></span>Welcome to Online Interview</h4>
-                  <h2 className="wow fade-in-bottom" data-wow-delay="400ms">World’s Best Online Interview Experience <br />Built by <span>Industry Leaders, <br />for Future Leaders</span></h2>
+                  <h2 className="wow fade-in-bottom" data-wow-delay="400ms">Let AI train your VISA Interview</h2>
                 </div>
-                <h4 className="bottom-title">Tech-boosted practical-first approach</h4>
+                <h4 className="bottom-title">Ace Visa interviews with our AI-powered Mock Visa interview Assessment Platform</h4>
                 <div className="hero-btn-wrap">
                   <a href="contact.html" className="ed-primary-btn active">Try For Free <span><i className="fa-solid fa-plus" /></span></a>
                   {/* <a href="contact.html" className="ed-primary-btn">Download  Brochure <span><i className="fa-solid fa-plus" /></span></a> */}

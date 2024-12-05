@@ -40,10 +40,10 @@ function Footer() {
               <div className="col-lg-3 col-md-6">
                 <div className="footer-widget">
                    <img
-          src="assets/img/logo/interview_logo_copy.png"
+          src="assets/img/logo/visa_logo_new.png"
           loading="lazy"
           width={220}
-          alt="InterviewInsights Logo"
+          alt="VisaInterview Logo"
         />
                                  
             {/* <ul className="footer-social">
@@ -73,8 +73,8 @@ function Footer() {
                     <li><a href="contact.html">All Courses</a></li>
                     <li><a href="contact.html">Digital Marketing</a></li>
                     <li><a href="contact.html">Design &amp; Branding</a></li>
-                    <li><a href="contact.html">Storytelling &amp; Voice Over</a></li>
-                    <li><a href="contact.html">News &amp; Blogs</a></li>
+                    {/* <li><a href="contact.html">Storytelling &amp; Voice Over</a></li> */}
+                    {/* <li><a href="contact.html">News &amp; Blogs</a></li> */}
                   </ul>
                 </div>
               </div>
