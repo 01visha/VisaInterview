@@ -55,7 +55,7 @@ export default function Signup() {
             <div className="text-center mb-4">
               <p>
                 <a href="/">
-                  <img className="img-logo" src="assets/img/logo/interview_logo_copy.png" alt="Logo" />
+                  <img className="img-logo" src="assets/img/logo/visa_logo_new.png" alt="Logo" />
                 </a>
               </p>
               <h1 className="h5 font-weight-medium">Sign In</h1>
