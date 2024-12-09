@@ -58,10 +58,10 @@ function Footer() {
                 <div className="footer-widget">
                   <h3 className="widget-header">Company Info</h3>
                   <ul className="footer-list">
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="service.html">Resource Center</a></li>
-                    <li><a href="team.html">Careers</a></li>
-                    <li><a href="contact.html">Instructor</a></li>
+                    <li><a href="/Aboutus">About Us</a></li>
+                    <li><a href="#">Resource Center</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Instructor</a></li>
                    
                   </ul>
                 </div>
@@ -70,9 +70,9 @@ function Footer() {
                 <div className="footer-widget">
                   <h3 className="widget-header">Useful Links</h3>
                   <ul className="footer-list">
-                    <li><a href="contact.html">All Courses</a></li>
-                    <li><a href="contact.html">Digital Marketing</a></li>
-                    <li><a href="contact.html">Design &amp; Branding</a></li>
+                    <li><a href="/Faqs">FAQs</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Design &amp; Branding</a></li>
                     {/* <li><a href="contact.html">Storytelling &amp; Voice Over</a></li> */}
                     {/* <li><a href="contact.html">News &amp; Blogs</a></li> */}
                   </ul>
@@ -82,11 +82,11 @@ function Footer() {
                 <div className="footer-widget">
                   <h3 className="widget-header">Resourses</h3>
                   <ul className="footer-list">
-                    <li><a href="contact.html">Community</a></li>
-                    <li><a href="contact.html">Support</a></li>
-                    <li><a href="contact.html">Video Guides</a></li>
-                    <li><a href="contact.html">Documentation</a></li>
-                    <li><a href="contact.html">Security</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Video Guides</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Security</a></li>
                   </ul>
                 </div>
               </div> 
@@ -117,18 +117,7 @@ function Footer() {
           </div>
         </div>
         
-      {/* <div className="copyright-area">
-          <div className="container">
-            <div className="copyright-content">
-              <p>Copyright © 2024 EdCare. All Rights Reserved.</p>
-              <ul className="copyright-list">
-                <li><a href="contact.html">Terms Of Use</a></li>
-                <li><a href="contact.html">Privacy</a></li>
-                <li><a href="contact.html">Environmental Policy</a></li>
-              </ul>
-            </div>
-          </div>
-        </div> */}
+    
       </footer>
       {showButton && (
         <button className="scroll-up-btn" onClick={scrollToTop}>

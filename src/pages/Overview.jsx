@@ -27,7 +27,7 @@ export default function Overview() {
           <div className="text-block-19">
             <strong className="bold-text-2">Let AI Guide Your US Visa Interview Journey</strong>
           </div>
-          <div className="text-block-19">
+          <div className="text-block-19 palign">
           Ace your visa interview with Visa Interview, the ultimate AI-powered mock visa interview assessment platform.<br /> Designed to simplify and optimize the visa interview process, Visa Interview integrates advanced artificial intelligence with a comprehensive knowledge repository, expert consultations, and personalized interview simulations.
           </div>
         </div>
@@ -48,17 +48,17 @@ export default function Overview() {
           <div className="text-block-19">
             <strong className="bold-text">Blazing Fast Transcription</strong>
           </div>
-          <div className="text-block-19">
+          <div className="text-block-19 palign">
           By integrating speech recognition technology, the visa interview project becomes more streamlined, accessible, and effective. It provides an innovative approach to modernizing traditional interview processes, <br />enhancing both user experience and operational efficiency.<br />Trained models for accent recognition and error correction in speech transcription.
           </div>
         </div>
         </div>
       </div>
     </div>
-    <div className="row gy-lg-0 gy-4 justify-content-center margin-tb feature-card">
+    {/* <div className="row gy-lg-0 gy-4 justify-content-center margin-tb feature-card">
     <div className="col-lg-4 col-md-6">
     <div className="d-flex justify-content-center align-items-center flex-wrap">   
-    <div className="div-block-12">
+   <div className="div-block-12">
           <img
             src="https://cdn.prod.website-files.com/66d04c99aaf4b1d7b96682e6/673970c9b3838173863c9bc1_Google_Meet_icon_(2020).svg%20(1).png"
             loading="lazy"
@@ -84,7 +84,7 @@ export default function Overview() {
        </div>
        </div>
 </div>
-<div className="col-lg-4 col-md-6 text-center">
+ <div className="col-lg-4 col-md-6 text-center">
         <div className="div-block-2-copy">
           <div className="div-block-4">
             <div className="text-block-21-answers-copy-123">All Platforms</div>
@@ -105,7 +105,7 @@ export default function Overview() {
             📹 Watch: How to Connect
           </a>
         </div>
-</div>
+</div> 
 <div className="col-lg-4 col-md-6">
         <div className="div-block-12">
           <img
@@ -130,9 +130,9 @@ export default function Overview() {
           />
            </div>
            </div>
-        
+       
      
-    </div>
+    </div> */}
   </div>
 </section>
 

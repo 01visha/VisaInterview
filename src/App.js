@@ -13,6 +13,10 @@ import Signup from "./pages/Signup";
 import Otp from "./pages/Otp";
 import Myprofile from "./pages/user/Myprofile";
 import Pricing from "./pages/Pricing";
+import Feature from "./pages/Features_main";
+import Aboutus from "./pages/Aboutus";
+import Faqs from "./pages/Faqs";
+
 
 import './App.css';
 import { UserProvider } from "./context/UserContext";
@@ -21,7 +25,7 @@ import { GoogleOAuthProvider } from '@react-oauth/google';
 function App() {
   return (
       <>
-      <GoogleOAuthProvider clientId='446534190853-o1fogsehrc0b9vtqb43ib7m93fvrdf87.apps.googleusercontent.com'>
+      <GoogleOAuthProvider clientId='186576846851-nh58o90galbmo9fc0ur0fc2joss88g8t.apps.googleusercontent.com'>
 
       <Router>
       <Header />
@@ -37,6 +41,9 @@ function App() {
             <Route path='/Myprofile' element={<Myprofile />} />
             <Route path='/Otp' element={<Otp />} />
             <Route path='/Pricing' element={<Pricing />} />
+            <Route path='/Feature' element={<Feature />} />
+            <Route path='/Aboutus' element={<Aboutus />} />
+            <Route path='/Faqs' element={<Faqs />} />
             <Route path="*" element={<Home />} /> 
          </Routes>      
       <Footer />

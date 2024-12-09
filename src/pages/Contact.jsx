@@ -19,7 +19,7 @@ return(
   <div className="container">
     <div className="row gy-4 gy-md-5 gy-lg-0 align-items-md-center">
       <div className="col-12 col-lg-6">
-        <div className="border overflow-hidden">
+        <div className="formborder overflow-hidden">
 
           <form action="#!">
             <div className="row gy-4 gy-xl-5 p-4 p-xl-5">
