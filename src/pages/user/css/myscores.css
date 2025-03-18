@@ -1,0 +1,17 @@
+.button {
+  @apply text-[white] bg-[#222] font-medium text-base leading-8 cursor-pointer text-center inline-flex items-center mr-2 px-8 py-[0.7rem] rounded-lg border-[none] hover:bg-[#333];
+}
+.button svg {
+  @apply inline w-[1.3rem] h-[1.3rem] text-[white] mr-3;
+}
+.button:focus svg {
+  @apply animate-[spin\_357_0.5s_linear];
+}
+@keyframes spin_357 {
+  from {
+    @apply rotate-0;
+  }
+  to {
+    @apply rotate-[360deg];
+  }
+}

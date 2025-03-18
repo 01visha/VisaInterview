@@ -1,0 +1,207 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.bg-navy-blue {
+  background-color: #000080;
+}
+
+.mobile-menu-overlay {
+  backdrop-filter: blur(5px);
+}
+
+.mobile-menu {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-menu-item {
+  transition: all 0.3s ease;
+}
+
+.mobile-menu-item:hover {
+  transform: translateX(5px);
+}
+
+.mobile-menu-icon {
+  transition: all 0.3s ease;
+}
+
+.mobile-menu-item:hover .mobile-menu-icon {
+  transform: scale(1.1);
+}
+
+.font-custom {
+  font-family: 'Your Custom Font', sans-serif;
+}
+
+.group:hover .group-hover\:block {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.group .group-hover\:block {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.logo {
+  height: 50px; /* Adjust height */
+  max-height: 60px; /* Prevent the logo from growing too large */
+  width: auto; /* Maintain the aspect ratio */
+  object-fit: contain; /* Ensures the image fits inside the container without distortion */
+  display: block; /* Removes any inline spacing issues */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between logo and nav */
+  padding: 0 20px;
+  height: 70px; /* Adjust as per design */
+}
+.nav {
+  display: flex;
+  gap: 20px; /* Adjust spacing between nav items */
+  align-items: center;
+}
+
+.dash-button1 {
+  @apply cursor-pointer bg-[white] shadow-[rgb(0_0_0_/_5%)_0_0_8px] tracking-[1.5px] uppercase text-[15px] transition-all duration-[0.5s] ease-[ease] px-8 py-2 rounded-[40px] border-0 hover:tracking-[3px] hover:bg-[hsl(261deg_80%_48%)] hover:text-white hover:shadow-[rgb(93_24_220)_0px_7px_29px_0px] active:tracking-[3px] active:bg-[hsl(261deg_80%_48%)] active:text-white active:shadow-[rgb(93_24_220)_0px_0px_0px_0px] active:translate-y-2.5 active:transition-[100ms];
+}
+
+/* From Uiverse.io by barisdogansutcu */ 
+.dash-button {
+  padding: 8px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  background-color: hsl(261deg 80% 48%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  letter-spacing: 1px;
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.dash-button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261, 63%, 57%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(105, 33, 239) 0px 7px 29px 0px;
+}
+
+.dash-button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+
+/* From Uiverse.io by satyamchaudharydev */ 
+.pbutton {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: hsl(261deg 80% 48%);
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.pbutton:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+  color: #ffff;
+}
+
+.pbutton:hover .icon {
+  transform: translate(4px);
+}
+
+.pbutton:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.pbutton::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+.space{
+  gap: 40px;
+}
+
+/* Mobile view styles */
+@media (max-width: 768px) {
+  .mobile-nav-button {
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+  }
+
+  .mobile-nav-button:hover {
+    background-color: #f7fafc;
+  }
+
+  .mobile-dropdown {
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  /* .space{
+    gap: 5px !important;
+  } */
+}
+
+@media (max-width: 1024px) and (min-width: 768px)  {
+  .space{
+    gap: 10px !important;
+  }
+}

@@ -1,3 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Reset margin and padding for body and html */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 .hero-content .hero-author {
   display: flex;
   align-items: center;

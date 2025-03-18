@@ -343,8 +343,8 @@ ul {
   border-radius: 100px;
 }
 .section-heading .sub-heading .heading-icon {
-  background-color: rgba(207, 17, 232, 0.15);
-  color: #95439f;
+  background-color: rgba(65, 64, 66, 0.15);
+  color: #0d0d0e;
   font-size: 14px;
   height: 28px;
   width: 28px;
@@ -2164,7 +2164,7 @@ ul {
     Buttons CSS
 */
 .ed-primary-btn {
-  background-color: #596bf8;
+  background-color: #f0f1f838;
   font-family: var(--ed-ff-heading);
   color: var(--ed-color-common-white);
   display: inline-flex;
@@ -2550,7 +2550,7 @@ START: Header CSS
 }
 .header .primary-header-inner .header-menu-wrap .sub-menu li a {
   font-family: var(--ed-ff-body);
-  color: var(--ed-color-heading-primary);
+  color: #ffffff;
   display: block;
   font-size: 16px;
   padding: 44.5px 0;
@@ -2574,7 +2574,7 @@ START: Header CSS
   font-size: 13px;
 }
 .header .primary-header-inner .header-menu-wrap .sub-menu li.active a {
-  color: #596bf8;
+  color: #ffffff;
 }
 .header .primary-header-inner .header-menu-wrap .sub-menu li.active ul li a {
   color: var(--ed-color-heading-primary);
@@ -3059,7 +3059,7 @@ START: Header CSS
   color: var(--ed-color-common-white);
 }
 .header-2 .primary-header-inner .header-right-wrap .header-right .header-right-item .mobile-side-menu-toggle {
-  color: var(--ed-color-heading-primary);
+  color: #fff;
 }
 
 .header-4 {
@@ -3135,7 +3135,7 @@ START: Header CSS
   background-color: transparent;
 }
 .header-4 .primary-header .primary-header-inner {
-  background-color: #9694f19c;
+  background-color: white;
   padding: 0 30px;
   border-radius: 0 0 10px 10px;
   border-radius: 20px;
@@ -7461,7 +7461,7 @@ START: Page Header CSS
   font-weight: 400;
 }
 .hero-content .hero-author h5 span {
-  color: #0733a6;
+  color: #060606;
   margin-right: 5px;
 }
 .hero-content .bottom-text {
@@ -7949,18 +7949,18 @@ START: Page Header CSS
   background-color: var(--ed-color-common-white);
 }
 .hero-content-4 .hero-btn-wrap .ed-primary-btn:hover {
-  color: var(--ed-color-heading-primary);
+  color: #6e6d6d;
 }
 .hero-content-4 .hero-btn-wrap .ed-primary-btn span {
   /* background-color: var(--ed-color-common-white); */
-  color: var(--ed-color-theme-primary);
+  color: #0d0d0d;
   height: 30px;
   width: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 4px solid #075ea69c;
+  border: 4px solid #2f30309c;
   margin-left: 15px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -7972,18 +7972,18 @@ START: Page Header CSS
   margin: 0;
 }
 .hero-content-4 .hero-btn-wrap .ed-primary-btn.active {
-  background-color: #1a4bdf66;
-  color: #596bf8;
+  background-color: #4d4e5066;
+  color: #000000;
 }
 .hero-content-4 .hero-btn-wrap .ed-primary-btn.active:before {
-  background-color: #035cc2c3;
+  background-color: #4d4d4ec3;
 }
 .hero-content-4 .hero-btn-wrap .ed-primary-btn.active:hover {
   color: var(--ed-color-common-white);
-  border: 1px solid var(--ed-color-theme-primary);
+  border: 1px solid #5758599c;
 }
 .hero-content-4 .hero-btn-wrap .ed-primary-btn.active:hover span {
-  background-color: #075ea69c;
+  background-color: #4b4c4d9c;
   border-color: var(--ed-color-common-white);
   color: var(--ed-color-common-white);
 }
@@ -8780,7 +8780,7 @@ START: Feature CSS
   border: 1px solid #E0E5EB;
 }
 .feature-card .content .ed-primary-btn:before {
-  background-color: #051c87ba;
+  background-color: #474748ba;
 }
 .feature-card .content .ed-primary-btn:hover {
   color: var(--ed-color-common-white);
@@ -11457,7 +11457,7 @@ START: Footer CSS
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #13193c;
+  background-color: #000000;
   width: 100%;
   height: 100%;
 }
@@ -12227,7 +12227,7 @@ START: Footer CSS
 }
 .text-block-21-answers-copy-123 {
   color: var(--greyscale--white);
-  background-color: #669cff;
+  background-color: #8c8e8f;
   border-radius: 12px;
   padding-left: 20px;
   padding-right: 20px;
@@ -12272,7 +12272,8 @@ START: Footer CSS
 
 .homebg{
   /* background-color: #5700ff;  */
-  background: linear-gradient(to bottom, #ffffff, #cdc5f8); /* Light blue to dark blue */
+  /* background: linear-gradient(to bottom, #ffffff, #cdc5f8);  */
+  background: #ffffff;
  
 }
 
@@ -12282,7 +12283,7 @@ START: Footer CSS
   right: 20px; /* Distance from the right */
   padding: 10px 15px;
   font-size: 18px;
-  background-color: #6215fe; /* Button color */
+  background-color: #353535; /* Button color */
   color: white;
   border: none;
   border-radius: 5px;
@@ -12293,7 +12294,7 @@ START: Footer CSS
 }
 
 .scroll-up-btn:hover {
-  background-color: #6215fe; /* Darker color on hover */
+  background-color: #6a696a; /* Darker color on hover */
 }
 
 .hero_video-wrapper {
@@ -12329,21 +12330,21 @@ START: Footer CSS
 
 .loginhead{
   /* background-color: #cd76cd ; */
-  color: #95439f;
+  color: #59595a;
   }
 
   .loginbtn{
-    background-color: #95439f ;
+    background-color: #545454 ;
     }
   
   .loginbtn:hover{
-    background-color: #df62f0 ;
+    background-color: #acabac ;
     color: #f0f0f0;
   }
   
 
   .abticon{
-    color: #95439f;
+    color: #5a585a;
   }
 
   .double-border-shadow {
@@ -12447,7 +12448,7 @@ button.mg-ch:hover{
 /* Pricing css */
 
 .butn {
-  background-color: #465bf6 !important; 
+  background-color: #3a3a3b !important; 
   color: white; 
   font-weight: bold; 
   border: none; 
@@ -12457,7 +12458,7 @@ button.mg-ch:hover{
 }
 
 .butn:hover {
-  background-color: #1932ef !important;
+  background-color: #848587 !important;
 }
 
 .butn1top{
@@ -12465,7 +12466,7 @@ button.mg-ch:hover{
 }
 
 .butn2top{
-  margin-top: 98px;
+   margin-top: 82px; 
 }
 
 .textcol{
@@ -12522,7 +12523,7 @@ button.mg-ch:hover{
 }
 
 .card-container {
-  background-image: linear-gradient(45deg, #6787cc, transparent);
+  background-image: linear-gradient(45deg, #646567, transparent);
   background-color: var(--primary-bg-color);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
   border-radius: 1rem; 
@@ -12535,7 +12536,7 @@ button.mg-ch:hover{
 
 .card-container:hover {
   transform: scale(1.05); 
-  background: linear-gradient(to top, #6664f4, #6e8fef63); 
+  background: linear-gradient(to top, #414142, #e7e7e863); 
 }
 
 .card-container1 {
@@ -12594,6 +12595,47 @@ opacity: 1;
 
 /* FAQ CSS */
 
+/* User Dashboard */
 
+.img-dash {
 
+  width: 20%;
+  height: 20%;
+  object-fit: cover; /* Optional: Ensures the image fills the space without distortion */
+  
+}
+
+.img-score {
+
+  width: 20%;
+  height: 20%;
+  object-fit: cover; /* Ensures the image fills the space without distortion */  
+  display: block; /* Ensures the image behaves as a block element */
+  margin: auto; /* Centers the image horizontally */  
+  position: relative; /* Allows you to use top and transform for centering */
+
+}
+
+.txtcol{
+  color:#ffffff;
+}
+
+.txtcol .nav-link {
+  color: white !important; /* Set tab text color */
+}
+
+.txtcol .nav-link.active {
+  color: #000000 !important; /* Set color for the active tab */
+}
+
+/* Increase the height of the tabs */
+.custom-tabs .nav-link {
+  height: 80px; /* Adjust height as needed */
+  line-height: 80px; /* Vertically center the text */
+  padding: 0 20px; /* Optional: Adjust horizontal padding */
+}
+
+.bg-gray{
+  background-color: #e7e3e36e;
+}
 /*# sourceMappingURL=main.css.map */

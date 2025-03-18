@@ -1,0 +1,223 @@
+.not-found-container {
+    min-height: 100vh;
+    background-color: #1d4ed8;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Sky and Sun Styles */
+  .sky-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .sky-content {
+    position: relative;
+    height: 160px;
+  }
+  
+  .sun {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 128px;
+    height: 128px;
+    background-color: #fb923c;
+    border-radius: 50%;
+  }
+  
+  .clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .cloud-svg {
+    width: 100%;
+  }
+  
+  /* Content Styles */
+  .content {
+    text-align: center;
+    z-index: 10;
+    padding: 0 16px;
+  }
+  
+  .error-code {
+    color: white;
+    font-size: 9rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .error-message {
+    color: white;
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+  }
+  
+  /* Boat and Person Styles */
+  .boat-container {
+    margin-bottom: 3rem;
+  }
+  
+  .boat-illustration {
+    position: relative;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+  }
+  
+  .boat {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 96px;
+    height: 32px;
+    background-color: #fb923c;
+    border-radius: 9999px;
+  }
+  
+  .person {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .person-body {
+    width: 24px;
+    height: 32px;
+    background-color: #1f2937;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .person-head {
+    width: 16px;
+    height: 16px;
+    background-color: #374151;
+    border-radius: 50%;
+    margin: -4px auto 0;
+  }
+  
+  /* Button Styles */
+  .button-container {
+    margin-top: 1rem;
+  }
+  
+  .go-back-button {
+    display: inline-block;
+    padding: 12px 32px;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 9999px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .go-back-button:hover {
+    background-color: #3b82f6;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Wave Effect Styles */
+  .wave-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  /* Animations */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+  
+  .animate-fade-in-delay {
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-out 0.2s forwards;
+  }
+  
+  .animate-fade-in-delay-2 {
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-out 0.4s forwards;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 640px) {
+    .error-code {
+      font-size: 6rem;
+    }
+    
+    .error-message {
+      font-size: 1rem;
+    }
+    
+    .boat-illustration {
+      width: 96px;
+      height: 96px;
+    }
+    
+    .boat {
+      width: 72px;
+      height: 24px;
+    }
+    
+    .person-body {
+      width: 20px;
+      height: 28px;
+    }
+    
+    .person-head {
+      width: 14px;
+      height: 14px;
+    }
+  }
+  
+  

@@ -1,12 +1,44 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Testimonials from "./Testimonials.jsx";
 import Overview from "./Overview.jsx";
 import Reviews from "./Reviews.jsx";
 import Features from "./Features.jsx";
 import Banner from "./Banner.jsx";
+import { useUserContext } from "../context/UserContext.js"; // Assuming you're using context
+import HeroSection from "./hero-section/hero-section.jsx";
+import FloatingStoreButtons  from "../../src/pages/FloatingStoreButtons.jsx";
+
 
 
 function Home() {
+  const { userData, loginUser } = useUserContext();
+  const storedUserData = JSON.parse(localStorage.getItem("userData"));
+  const authToken = localStorage.getItem("authToken");
+  // Handle user data login and simulation
+    useEffect(() => {
+      if (!userData.isAuthenticated) {
+        // Simulate a user login by setting user data in context if user is not authenticated
+        if (storedUserData) {
+          const userInfo = {
+            accountType: storedUserData.accountType || "user",
+            name: storedUserData.name || "",
+            email: storedUserData.email || "",
+            picture: storedUserData.picture || "",
+          };
+          loginUser(userInfo, authToken); // Update context with user information and token
+        }
+      } else {
+        // Simulate user details when already authenticated
+        const userdetails = {
+          accountType: userData.accountType || "user",
+          name: userData.name || "",
+          email: userData.email || "",
+          picture: userData.picture || "",
+        };
+        //console.log("User already authenticated, user details: ", userdetails);
+      }
+    }, [userData.isAuthenticated, storedUserData, authToken, loginUser]);
+  
     return (
         
         <>
@@ -19,28 +51,15 @@ function Home() {
             <div className="search-close"><i className="fa-sharp fa-regular fa-xmark" /></div>
           </div>
         </div>
-        {/* /#popup-search-box */}
-        <div className="mobile-side-menu">
-          <div className="side-menu-content">
-            <div className="side-menu-head">
-              <a href="index.html"><img src="assets/img/logo/visa_logo_new.png" alt="logo" /></a>
-              <button className="mobile-side-menu-close"><i className="fa-regular fa-xmark" /></button>
-            </div>
-            <div className="side-menu-wrap" />
-            <ul className="side-menu-list">
-              <li><i className="fa-light fa-location-dot" />Address : Plot No:1, R-205, Pramod Rajshree Plaza, Vegetable Market Square, Khamla Rd, near Nayara Petrol Pump, Khamla, Nagpur, Maharashtra 440025</li>
-              <li><i className="fa-light fa-phone" />Mobole No. : +91-4642-3977</li>
-              <li><i className="fa-light fa-envelope" />Email : info@virtualglobetechnology.com</li>
-            </ul>
-          </div>
-        </div>
-        {/* /.mobile-side-menu */}
+      {/* /.mobile-side-menu */}
         <div className="mobile-side-menu-overlay" />
       <Banner />
       <Testimonials />
       <Overview />
       <Features />     
-      <Reviews />       
+      <Reviews />   
+      <HeroSection /> 
+      <FloatingStoreButtons/>
         </>
     );
 

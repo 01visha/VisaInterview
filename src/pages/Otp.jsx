@@ -55,17 +55,29 @@ export default function Signup() {
             <div className="text-center mb-4">
               <p>
                 <a href="/">
-                  <img className="img-logo" src="assets/img/logo/interview_logo_copy.png" alt="Logo" />
+                  <img className="img-logo" src="assets/img/logo/visa_logo_new.png" alt="Logo" />
                 </a>
               </p>
               <h1 className="h5 font-weight-medium">OTP</h1>
-              <p className="text-muted">Please Enter OTP send on your mobile no.</p>
+              <p className="text-muted">Please Enter OTP send on your Email</p>
             </div>
             <div className="d-flex flex-column align-items-center gap-3">
               <form className="d-flex gap-2 w-100">
                 <input type="text" className="form-control" placeholder="Enter OTP" value="" />
-                <button type="submit" className="btn bg-otp">
-                  Send OTP                  
+                <button type="submit" className="btn btn-outline-primary" disabled>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M18 8L22 12L18 16"></path>
+                    <path d="M2 12H22"></path>
+                  </svg>
                 </button>
               </form>
             </div>
